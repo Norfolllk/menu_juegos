@@ -1,17 +1,50 @@
-<DOCTYPE html>
-</html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAME ZONE</title>
-    <body>
-        <h1>GAME ZONE</h1>
-        <h2>MENU DE JUEGO</h2>
-        <h5>SELECCIONA EL JUEGO QUE DESEAS JUGAR</h5>
-            <a href="https://juego-cazando-vf.vercel.app/">JUEGO CAZANDO</a>
-            <p> Persigue la comida</p>
-            <a href="https://juego-limones-zeta.vercel.app/">JUEGO LIMONE</a>
-            <p> Atrapa los limones </p>
-        <h5>-Elaborador por Norfolk -</h5>
-        <h6>KRAKEDEV - 2026 - MOVILIS </h6>
-    </body>
-</head> 
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <video autoplay loop muted class="background-video">
+        <source src="fondocircular.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+    <div class="wrapper">
+        <section class="card hero-card">
+            <h1>GAME ZONE</h1>
+        </section>
+
+        <section class="card info-card">
+            <h2>MENÚ DE JUEGOS</h2>
+            <p>SELECCIONA EL JUEGO QUE DESEAS JUGAR</p>
+        </section>
+
+        <section class="card actions-card">
+            <div class="game-option">
+                <button onclick="window.location.href='https://juego-cazando-vf.vercel.app/'" class="game-btn">
+                    <span class="icon">🐱</span>
+                    <span>JUEGO CAZANDO</span>
+                </button>
+                <p>Persigue la comida</p>
+            </div>
+            <div class="game-option">
+                <button onclick="window.location.href='https://juego-limones-zeta.vercel.app/'" class="game-btn">
+                    <span class="icon">🍋</span>
+                    <span>JUEGO LIMONES</span>
+                </button>
+                <p>Atrapa los limones</p>
+            </div>
+        </section>
+
+        <section class="card footer-card">
+            <div class="brand-copy">
+                <h5>ELABORADO POR NORFOLK</h5>
+                <h6>-KRAKEDEV - 2026 - MOVILIS-</h6>
+            </div>
+            <img src="dog_game.png" alt="Logo neon del juego" class="neon-image">
+        </section>
+    </div>
+</body>
 </html>
