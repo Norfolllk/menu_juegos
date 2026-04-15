@@ -1,0 +1,10 @@
+1. Buenas noches, chat! Analiza únicamente cada adjunto que te entregue, por el momento solo analiza tanto individualmente como en su conjunto.
+
+2. Actúa como diseñador gráfico, mejora la parte visual de esta pagina tipo menú, modifica el html y el css
+
+3. Ayudame con el codigo para añadir el gif como fondo; y centra todo el texto; conviertir los hipervinculos en botones 
+
+4. Ayudame con el codigo para que esos botones a un nivel más “pro” con estilo tipo neón / gamer, agregando brillo, mejores animaciones e íconos más limpios.
+
+5. Ayudame con el codigo para dividir en cuatro cuadros los neones en donde se distinga el título, descripción, la lista de juegos y el pie de página además aquí añade la imagen que te adjunto
+
